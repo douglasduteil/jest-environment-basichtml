@@ -2,11 +2,16 @@
   "name": "jest-environment-basichtml",
   "version": "0.0.0",
   "description": "basicHTML environment in Jest",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "prepublish": "build",
     "build": "babel src -d dist",
     "test": "jest"
   },
+  "files": [
+    "src",
+    "dist"
+  ],
   "jest": {
     "testEnvironment": "node"
   },
