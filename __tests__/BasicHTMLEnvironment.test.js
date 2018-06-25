@@ -44,3 +44,11 @@ test('document element', () => {
   const anyElement = document.createElement('any');
   expect(anyElement instanceof HTMLElement).toBeTruthy();
 });
+
+test('document append element to body', () => {
+  const {
+    global: { document }
+  } = new BasicHTMLEnvironment({});
+  document.body.append('Hello world');
+  expect(document.body.outerHTML).toBe('<body>Hello world</body>');
+});
