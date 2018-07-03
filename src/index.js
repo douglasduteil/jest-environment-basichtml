@@ -2,4 +2,4 @@
 
 import { BasicHTMLEnvironment } from './BasicHTMLEnvironment';
 
-module.export = BasicHTMLEnvironment;
+module.exports = BasicHTMLEnvironment;
