@@ -18,6 +18,9 @@ export class BasicHTMLEnvironment extends NodeEnvironment {
     window.document = new Document(window.customElements);
     window.document = new Document(window.customElements);
     window.window = window;
+    
+    // Ensure that the real global env has the document
+    global.document = window.document;
   }
 
   async teardown() {
@@ -25,5 +28,7 @@ export class BasicHTMLEnvironment extends NodeEnvironment {
 
     this.global.document = null;
     this.global.window = null;
+    
+    global.document = null;
   }
 }
