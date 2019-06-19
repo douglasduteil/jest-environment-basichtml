@@ -736,12 +736,12 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-basichtml@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.npmjs.org/basichtml/-/basichtml-0.16.0.tgz#bf1e947d2e2e0748d0c516806aa83e4811612f55"
+basichtml@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/basichtml/-/basichtml-0.24.0.tgz#39678511aa2d2db1f439935c7738437a67a3a9b6"
   dependencies:
     "@webreflection/interface" "^0.1.1"
-    broadcast "^2.0.2"
+    broadcast "^3.0.0"
     html-escaper "^1.0.1"
     htmlparser2 "^3.9.2"
 
@@ -785,9 +785,9 @@ braces@^2.3.1:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-broadcast@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.npmjs.org/broadcast/-/broadcast-2.0.3.tgz#7dc77aaac0069c21379ab83ea86d57b41f6214c5"
+broadcast@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/broadcast/-/broadcast-3.0.0.tgz#65888e3a8ff630d9c4398952338c9bbeff1c47b1"
 
 browser-process-hrtime@^0.1.2:
   version "0.1.2"
