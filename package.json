@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/douglasduteil/jest-environment-basichtml#readme",
   "dependencies": {
-    "basichtml": "^0.16.0",
+    "basichtml": "^1.0.0",
     "jest-environment-node": "^23.1.0"
   },
   "devDependencies": {
